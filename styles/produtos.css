@@ -7,39 +7,10 @@ main {
   margin: 20vh auto;
 }
 
-.produtos__content {
-  margin: 50px 0;
-}
-
 .produtos__titulo {
   font-size: 2rem;
   margin: 100px auto 0 auto;
   font-weight: 700;
-}
-
-.produtos__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.produtos__header h2 {
-  font-weight: 700;
-  font-size: 2rem;
-  color: var(--text-color);
-}
-
-.produtos__header a {
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.produtos__header i {
-  font-size: 1.25rem;
-  color: var(--primary-color);
 }
 
 .produtos__lista {
@@ -69,24 +40,4 @@ main {
   color: var(--text-color);
   font-weight: 700;
   margin: 0.5rem 0;
-}
-
-.produtos__link {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--primary-color);
-}
-
-.produtos__button {
-  font-weight: 400;
-  border: none;
-  padding: 16px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  cursor: pointer;
-  background-color: #2a7ae4;
-  height: 51px;
-  width: 165px;
 }
