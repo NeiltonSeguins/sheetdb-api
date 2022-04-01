@@ -39,17 +39,12 @@ async function adicionaProduto(url, data) {
 
 // Método DELETE
 async function deletaProduto(url, coluna, valor) {
-  const res = await fetch(`${url}/${coluna}/${valor}`, {
+  await fetch(`${url}/${coluna}/${valor}`, {
     method: 'DELETE',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(data),
   });
-  return console.log(res.json());
 }
 
-// deletaProduto(url, 'preco', 200);
+// deletaProduto(url, 'preco', 546);
 
 // =================================================================================================
 
