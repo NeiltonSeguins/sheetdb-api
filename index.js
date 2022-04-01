@@ -4,10 +4,10 @@ const url = 'https://sheetdb.io/api/v1/isumaaox3cavy/'; //Você pode testar sua 
 
 // Dados
 const data = {
-  nome: 'Baby Yoda',
-  preco: 150,
+  nome: 'Kylo Ren',
+  preco: 300,
   categoria: 'Starwars',
-  imagem_url: 'https://m.media-amazon.com/images/I/71oXYSV2lEL._AC_SY450_.jpg',
+  imagem_url: 'https://m.media-amazon.com/images/I/61WgvjE5DBL._AC_SX522_.jpg',
 };
 
 // =================================================================================================
