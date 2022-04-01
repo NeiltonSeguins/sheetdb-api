@@ -4,10 +4,11 @@ const url = 'https://sheetdb.io/api/v1/isumaaox3cavy/'; //Você pode testar sua 
 
 // Dados
 const data = {
-  nome: 'Kylo Ren',
-  preco: 300,
+  nome: 'R2D2',
+  preco: 500,
   categoria: 'Starwars',
-  imagem_url: 'https://m.media-amazon.com/images/I/61WgvjE5DBL._AC_SX522_.jpg',
+  imagem_url:
+    'https://http2.mlstatic.com/D_NQ_NP_870576-MLB31201160562_062019-O.jpg',
 };
 
 // =================================================================================================
@@ -24,14 +25,13 @@ pegaProduto(url);
 
 // Método POST
 async function adicionaProduto(url, data) {
-  const res = await fetch(url, {
+  await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data),
   });
-  return res;
 }
 // adicionaProduto(url, data);
 
